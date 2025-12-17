@@ -17,13 +17,14 @@ header {
     }
 
     .header__section-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         p {
-            max-width: 300px;
-
-            font-size: 0.7rem;
+            font-size: 1.2rem;
             letter-spacing: 0.018rem;
-            line-height: 1.2rem;
+            line-height: 2rem;
         }
     }
 
