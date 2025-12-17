@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './header.css'
 import './floatingDots.css'
+import TheWhiteSpaceSaga from './preview_projects/TheWhiteSpaceSaga';
 
 function Header() {
     const [activeSelection, serActiveSelection] = useState(0);
@@ -29,25 +30,7 @@ function Header() {
                     <p>Projects are also listed further down</p>
                 </section>
                 <section className="header__project-whitespace" style={getStyle(1)}>
-                    <p>The Whitespace Saga</p>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
-                    <div className="floating-dot"></div>
+                    <TheWhiteSpaceSaga />
                 </section>
 
                 <section className="header__project-snapshot" style={getStyle(2)}>
