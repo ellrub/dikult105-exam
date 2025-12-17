@@ -58,7 +58,7 @@ function Header() {
                     <p>CSS Insanity</p>
                 </section>
             </div>
-            <section className="header__project-nav">
+            <section className="header__project-carousel">
                 <button onClick={() => handleCarouselClick(1)}>The Whitespace Saga</button>
                 <button onClick={() => handleCarouselClick(2)}>Snapshot Journey</button>
                 <button onClick={() => handleCarouselClick(3)}>CSS Insanity</button>
