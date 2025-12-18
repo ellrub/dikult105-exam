@@ -8,7 +8,7 @@ function Insanity() {
             <h1 className="rainbow-text">💀 HORRIBLE CSS EXAMPLES 💀</h1>
             <p className="spinning-text">Warning: Your eyes may never recover!</p>
             <nav>
-                <a className="back-link">🏃‍♂️ ESCAPE TO GOOD CSS</a>
+                <a href='https://insanity-mu.vercel.app/index.html' className="back-link">🏃‍♂️ ESCAPE TO GOOD CSS</a>
             </nav>
         </header>
     </>
