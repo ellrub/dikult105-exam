@@ -10,7 +10,7 @@ header {
     box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.195);
 
     h3 {
-        align-self: flex-start;
+        align-self: flex-center;
         
         font-weight: 400;
         font-size: 2rem;
@@ -39,7 +39,7 @@ header {
         height: 60vh;
 
         .header__project-whitespace,
-        .header__project-snapshot,
+        .header__project-examify,
         .header__project-insanity {
             display: none;
             position: relative;
@@ -92,6 +92,10 @@ header {
             animation: floatDot2 8s ease-in-out infinite reverse;
             animation-delay: -2s;
             }
+        }
+
+        .header__project-examify {
+            background-color: #312E81;
         }
     }
 

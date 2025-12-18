@@ -3,6 +3,7 @@ import './header.css'
 import './preview_projects/whiteSpaceSaga/floatingDots.css'
 import TheWhiteSpaceSaga from './preview_projects/whiteSpaceSaga/TheWhiteSpaceSaga';
 import Insanity from './preview_projects/insanity/Insanity';
+import Examify from './preview_projects/examify/examify';
 
 function Header() {
     const [activeSelection, serActiveSelection] = useState(0);
@@ -34,18 +35,18 @@ function Header() {
                     <TheWhiteSpaceSaga />
                 </section>
 
-                <section className="header__project-snapshot" style={getStyle(2)}>
-                    <p>Snapshot Journey</p>
+                <section className="header__project-insanity" style={getStyle(2)}>
+                    <Insanity />
                 </section>
 
-                <section className="header__project-insanity" style={getStyle(3)}>
-                    <Insanity />
+                <section className="header__project-examify" style={getStyle(3)}>
+                    <Examify />
                 </section>
             </div>
             <section className="header__project-carousel">
                 <button onClick={() => handleCarouselClick(1)}>The Whitespace Saga</button>
-                <button onClick={() => handleCarouselClick(2)}>Snapshot Journey</button>
-                <button onClick={() => handleCarouselClick(3)}>CSS Insanity</button>
+                <button onClick={() => handleCarouselClick(2)}>CSS Insanity</button>
+                <button onClick={() => handleCarouselClick(3)}>Examify</button>
             </section>
         </header>
     </>
