@@ -1,0 +1,20 @@
+.section__examify--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #312E81;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+    a {
+        padding: 10px 15px;
+        background-color: #8b5cf6;
+        border-radius: 5px;
+        text-shadow: none;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+    }
+}
