@@ -9,18 +9,15 @@ function Projects() {
             <section class="main__project-container">
                 <article class="main__project-frame">
                     <h4>The Whitespace Saga</h4>
-                    <img src="whitespace.png" alt="The whitespace saga cover" />
-                    <a href="./pages/whitespace.html">Click here to check out the untold story about the Nolybabs</a>
-                </article>
-                <article class="main__project-frame">
-                    <h4>Snapshot Journey</h4>
-                    <img src="placeholder.png" alt="placeholder image" />
-                    <a href="./pages/snapshot.html">Click her to check out DIKULT105 journey</a>
+                    <img src="src/assets/whitespace.png" alt="The whitespace saga cover" />
+                    <a>Unfortunately, this has been discontined</a>
+                    <a href="#">No Github page</a>
                 </article>
                 <article class="main__project-frame">
                     <h4>CSS Insanity</h4>
-                    <img src="./images/insanity.png" alt="CSS Insanity cover" />
-                    <a href="./pages/playing_around_with_css/horrible.html">Click here to have your eyes burned, and your sanity removed from this world</a>
+                    <img src="src/assets/insanity.png" alt="CSS Insanity cover" />
+                    <a href="https://insanity-mu.vercel.app/">Click here to have your eyes burned, and your sanity removed from this world</a>
+                    <a href="https://github.com/ellrub/insanity">CSS Insanity on Github</a>
                 </article>
             </section>
         </main>

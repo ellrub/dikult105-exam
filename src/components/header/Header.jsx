@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './header.css'
-import './floatingDots.css'
-import TheWhiteSpaceSaga from './preview_projects/TheWhiteSpaceSaga';
+import './preview_projects/whiteSpaceSaga/floatingDots.css'
+import TheWhiteSpaceSaga from './preview_projects/whiteSpaceSaga/TheWhiteSpaceSaga';
+import Insanity from './preview_projects/insanity/Insanity';
 
 function Header() {
     const [activeSelection, serActiveSelection] = useState(0);
@@ -38,7 +39,7 @@ function Header() {
                 </section>
 
                 <section className="header__project-insanity" style={getStyle(3)}>
-                    <p>CSS Insanity</p>
+                    <Insanity />
                 </section>
             </div>
             <section className="header__project-carousel">

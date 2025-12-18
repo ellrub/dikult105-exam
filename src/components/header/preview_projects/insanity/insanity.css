@@ -1,0 +1,56 @@
+.nightmare-header {
+    background: radial-gradient(circle, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    padding: 2rem;
+    text-align: center;
+    border: 10px solid gold;
+    box-shadow: 0 0 50px red, inset 0 0 50px blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .rainbow-text {
+        font-size: 4rem;
+        background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: rainbow-slide 1s linear infinite;
+        text-shadow: 5px 5px 0px black, 10px 10px 0px red, 15px 15px 0px yellow;
+    }
+    
+    .spinning-text {
+        animation: spin 2s linear infinite;
+        font-size: 1.5rem;
+        color: magenta;
+        text-decoration: blink; /* Old CSS property */
+    }
+    
+    .back-link {
+        background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        animation: bounce 1s ease-in-out infinite;
+    }
+}
+
+@keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
+
+@keyframes rainbow-slide {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
