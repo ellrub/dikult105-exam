@@ -16,8 +16,14 @@ function Projects() {
                 <article class="main__project-frame">
                     <h4>CSS Insanity</h4>
                     <img src="src/assets/insanity.png" alt="CSS Insanity cover" />
-                    <a href="https://insanity-mu.vercel.app/">Click here to have your eyes burned, and your sanity removed from this world</a>
+                    <a href="https://insanity-mu.vercel.app/horrible.html">Click here to have your eyes burned, and your sanity removed from this world</a>
                     <a href="https://github.com/ellrub/insanity">CSS Insanity on Github</a>
+                </article>
+                <article class="main__project-frame">
+                    <h4>Examify</h4>
+                    <img src="src/assets/examify.png" alt="Examify cover" />
+                    <a href="https://examify1.vercel.app/">Click here to test your skills in INFO132</a>
+                    <a href="https://github.com/ellrub/examify">Examify on Github</a>
                 </article>
             </section>
         </main>
